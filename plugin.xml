@@ -64,7 +64,6 @@
         <source-file src="src/android/com/newgrand/cordova/speech/DirectoryUtil.java" target-dir="src/com/newgrand/cordova/speech/" />
         <source-file src="src/android/com/newgrand/cordova/speech/Speech.java" target-dir="src/com/newgrand/cordova/speech/" />
         <source-file src="src/android/com/newgrand/cordova/speech/Speex.java" target-dir="src/com/newgrand/cordova/speech/" />
-        <source-file src="src/android/com/newgrand/cordova/android-support-v4.jar" target-dir="libs/" />
         <source-file src="src/android/armeabi/libspeex.so" target-dir="libs/armeabi/" />
         <source-file src="src/android/armeabi-v7a/libspeex.so" target-dir="libs/armeabi-v7a/" />
 
