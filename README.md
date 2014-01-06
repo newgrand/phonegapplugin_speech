@@ -1,20 +1,26 @@
 phonegapplugin_speech
 =====================
 
-a phonegap plugin for mobile netcall taking photograph and recording voice and transmitting these multimedia file from one client to other client.
+a phonegap plugin for mobile netcall  recording voice and playing these multimedia file .
 
 ## Using the plugin ##
+init:
+var speech = new Speech(errorCallback,playCallback,recordCallback);
 
+record:
+speech.startRecord();
+speech.stopRecord();
 
-## Thanks on Github ##
+play:
+speech.play();
+speech.stop();
 
-So many -- check out the original [iOS](https://github.com/newgrand/phonegapplugin_speech/tree/c1a3ed520b8f7e987765054bfd93755f491a24ac/src/ios) and [Android](https://github.com/newgrand/phonegapplugin_speech/tree/c1a3ed520b8f7e987765054bfd93755f491a24ac/src/android) repos.
 
 ## Licence ##
 
 The MIT License
 
-Copyright (c) 2010 Matt Kane
+Copyright (c) 2013 Newgrand.cn
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
